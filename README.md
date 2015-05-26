@@ -15,5 +15,5 @@ https://registry.hub.docker.com/u/injcristianrojas/phpcs-security-audit/
 Go to your PHP project directory and run:
 
 ```Shell
-docker run --rm -it -v ${PWD}:/workdir:ro injcristianrojas/phpcs-securityaudit
+docker run --rm -it -v ${PWD}:/workdir:ro injcristianrojas/phpcs-security-audit
 ```
