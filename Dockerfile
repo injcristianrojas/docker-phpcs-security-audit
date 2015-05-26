@@ -1,5 +1,3 @@
-# docker run --rm -it -v ${PWD}:/workdir:ro phpcs-securityaudit
-
 FROM ubuntu
 MAINTAINER Cristián Rojas
 
