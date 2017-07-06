@@ -10,10 +10,14 @@ module into a Docker machine.
 The Docker project for this is located at
 https://registry.hub.docker.com/u/injcristianrojas/phpcs-security-audit/
 
+## Requirements
+
+* Docker Compose
+
 ## Usage
 
 Go to your PHP project directory and run:
 
 ```Shell
-docker run --rm -it -v ${PWD}:/workdir:ro injcristianrojas/phpcs-security-audit
+docker-compose up
 ```
