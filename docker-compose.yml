@@ -1,0 +1,7 @@
+version: '2'
+
+services:
+  analyzer:
+    image: injcristianrojas/phpcs-security-audit
+    volumes:
+      - .:/workdir:ro
